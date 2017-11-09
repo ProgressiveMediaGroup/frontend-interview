@@ -40,3 +40,5 @@ This will bundle and zip the 'package.json' file and everything in the 'src' and
 Please ensure the zip contains all your files.
 
 Please submit the package.zip file to: [Chris Williams](christopher.williams@progressivecontent.com)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
