@@ -33,7 +33,9 @@ Bonus points will also be awarded for any valid suggestions on improvements with
 This test should take between 1 and 2 hours, although this is purely a guide.
 
 ## Submission Instructions
-To package your working files, please run: npm run package
+To package your working files, please run the following command:
+
+```npm run package```
 
 This will bundle and zip the 'package.json' file and everything in the 'src' and 'public' folders into the 'package.zip' archive.
 
