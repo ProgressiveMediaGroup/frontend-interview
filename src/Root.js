@@ -6,7 +6,7 @@ import {
   Switch
 } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
+import { createStore, compose } from 'redux'
 
 // Styles
 import './styles/main.css'
@@ -22,7 +22,16 @@ import Footer from './components/Footer'
 
 // Reducers
 import technicalTestReducers from './reducers'
-let store = createStore(technicalTestReducers)
+let store = createStore(
+  technicalTestReducers,
+  {},
+  compose(
+    typeof window === "object" &&
+    typeof window.devToolsExtension !== "undefined"
+      ? window.devToolsExtension()
+      : f => f
+  )
+)
 
 // Initial Class containing all Routes
 class Root extends Component {

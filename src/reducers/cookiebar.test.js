@@ -13,7 +13,7 @@ describe('cookiebar reducer', () => {
     expect(
       reducer([], {
         type: types.COOKIE_ACCEPT,
-        data: { accept: true }
+        payload: { accept: true }
       })
     ).toEqual({ accept: true })
   })

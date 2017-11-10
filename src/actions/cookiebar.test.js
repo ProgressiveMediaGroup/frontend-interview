@@ -6,7 +6,7 @@ describe('actions', () => {
   it('should create an action to add a COOKIE_ACCEPT', () => {
     const expectedAction = {
       type: types.COOKIE_ACCEPT,
-      data: {
+      payload: {
         accept: true
       }
     }
