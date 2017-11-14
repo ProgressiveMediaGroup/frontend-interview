@@ -30,7 +30,7 @@ It should be noted that any code provided will be used as a discussion point for
 
 Bonus points will also be awarded for any valid suggestions on improvements within the supplied code.
 
-This test should take between 1 and 2 hours, although this is purely a guide.
+This test should take between 2 and 3 hours, although this is purely a guide.
 
 ## Submission Instructions
 To package your working files, please run the following command:
